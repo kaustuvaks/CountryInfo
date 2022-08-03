@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  /* background-color: aquamarine; */
+}
+.body-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center ;
+  gap:1rem;
+  background-color: red;
+  padding:2rem 0rem;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar .nav-search{
+  padding:4px;
+}
+
+.txt-cstm{
+  font-size: large;
+  font-weight: 700;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  color:purple;
+
+}
+.Card-container{
+  width:25em;
+  height:40em;
+  background-color: yellow;
+  border-radius:1em;
+  display: flex;
+  flex-direction: column;
+
+  margin-top:1em;
+}
+
+.Card-container .Card-top{
+  width:22em;
+  height:13.6em;
+  margin:1.5em 1.5em;
+  /* border:3px blue solid; */
+  border-radius:1em;
+}
+.Card-container .Card-top img{
+  width:100%;
+  height:100%;
+}
+
+.info{
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    margin:1.5em;
+    color: black;
+    padding: 0.2em;
+    line-height: 1.5em;
+    width: 22em;
+    overflow:hidden;
+}
+
+.bdr-btm{
+    border-top: 0;
+    border-bottom: 1px solid #a2a9b1;
+    padding: 0 0.6em 0.4em 0.6em;
 }

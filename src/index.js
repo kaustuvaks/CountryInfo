@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM  from "react-dom";
-import Kaustuva from "./images/kaustuva.jpg";
 import "./index.css"
 
-let njs=null;
 
 class Header extends React.Component{
     constructor(props){
